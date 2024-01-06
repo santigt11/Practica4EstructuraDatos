@@ -1,0 +1,38 @@
+{
+    "controlador.listas.DynamicList": {
+        "header": {
+            "info": {
+                "@class": "modelo.Vendedor",
+                "id": 1,
+                "nombre": "Santiago",
+                "apellido": "Guachizaca",
+                "cedula": " 1150357679",
+                "numero": "0989656478"
+            },
+            "next": {
+                "info": {
+                    "@class": "modelo.Vendedor",
+                    "id": 2,
+                    "nombre": "Ruben",
+                    "apellido": "Troya",
+                    "cedula": 1103136600,
+                    "numero": "0936564856"
+                },
+                "next": {
+                    "info": {
+                        "@class": "modelo.Vendedor",
+                        "id": 3,
+                        "nombre": "Maria",
+                        "apellido": "Chamba",
+                        "cedula": 1103320956,
+                        "numero": "0965621432"
+                    }
+                }
+            }
+        },
+        "last": {
+            "@reference": "..\/header\/next\/next"
+        },
+        "length": 3
+    }
+}

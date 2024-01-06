@@ -1,0 +1,25 @@
+{
+    "controlador.listas.DynamicList": {
+        "header": {
+            "info": {
+                "@class": "modelo.Venta",
+                "Id": 1,
+                "vendedor": {
+                    "id": 1,
+                    "nombre": " Santiago",
+                    "apellido": "Guachizaca",
+                    "cedula": " 1150357679",
+                    "numero": "0989656478"
+                },
+                "auto": {
+                    "color": "Negro",
+                    "marca": " Suzuki"
+                }
+            }
+        },
+        "last": {
+            "@reference": "..\/header"
+        },
+        "length": 1
+    }
+}
